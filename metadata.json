@@ -1,0 +1,6 @@
+{
+  "name": "NettosCorp Enterprise Platform",
+  "description": "Plataforma corporativa de governança, departamentos, agentes de IA, projetos, tarefas e auditoria com Supabase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,17 @@
+# wrangler.toml — NettosCorp Enterprise
+# Cloudflare Pages deployment para enterprise.defesai.com.br
+
+name = "nettoscorp-enterprise"
+compatibility_date = "2026-11-21"
+
+[observability]
+enabled = true
+
+[pages]
+build_command = "pnpm run build"
+build_output_directory = "dist"
+destination_names = ["enterprise.defesai.com.br"]
+
+[vars]
+ENVIRONMENT = "production"
+APP_NAME = "NettosCorp Enterprise"
